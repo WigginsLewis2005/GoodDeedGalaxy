@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF01BD032BFF8B4C0075D437 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF01BD022BFF8B4C0075D437 /* ContentView.swift */; };
+		CF01BD052C00CE850075D437 /* HubPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF01BD042C00CE840075D437 /* HubPage.swift */; };
+		CF01BD072C05FF980075D437 /* GoodDeedGalaxyLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF01BD062C05FF980075D437 /* GoodDeedGalaxyLogo.swift */; };
+		CF1461892C08A0C300E890C3 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1461882C08A0C300E890C3 /* BackButton.swift */; };
+		CF14618B2C08B9F400E890C3 /* ChoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF14618A2C08B9F400E890C3 /* ChoresView.swift */; };
+		CF14618D2C08BA0A00E890C3 /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF14618C2C08BA0A00E890C3 /* NewItemView.swift */; };
+		CF14618F2C08BA4B00E890C3 /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF14618E2C08BA4B00E890C3 /* NewItemViewViewModel.swift */; };
+		CF1461912C08BA6200E890C3 /* ToDoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1461902C08BA6200E890C3 /* ToDoListViewModel.swift */; };
+		CF1461932C08BA7E00E890C3 /* TodoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1461922C08BA7E00E890C3 /* TodoDetailView.swift */; };
+		CF1461952C08BA9D00E890C3 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1461942C08BA9D00E890C3 /* ToDoListView.swift */; };
+		CF1461972C08BAD000E890C3 /* ChoresTodosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1461962C08BAD000E890C3 /* ChoresTodosView.swift */; };
+		CF1461992C08C73800E890C3 /* NavigationViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1461982C08C73800E890C3 /* NavigationViewButton.swift */; };
+		CF14619B2C09F98400E890C3 /* CustomTabBar in Resources */ = {isa = PBXBuildFile; fileRef = CF14619A2C09F98400E890C3 /* CustomTabBar */; };
+		CF4EFB662BCD5F0300E1B2B2 /* GoodDeedGalaxyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4EFB652BCD5F0300E1B2B2 /* GoodDeedGalaxyApp.swift */; };
+		CF4EFB6A2BCD5F0400E1B2B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4EFB692BCD5F0400E1B2B2 /* Assets.xcassets */; };
+		CF4EFB6D2BCD5F0400E1B2B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4EFB6C2BCD5F0400E1B2B2 /* Preview Assets.xcassets */; };
+		CF4EFB7A2BCD7E2600E1B2B2 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4EFB792BCD7E2600E1B2B2 /* LogInView.swift */; };
+		CF7BA4622BF6532100102D09 /* ChoreCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7BA4612BF6532000102D09 /* ChoreCount.swift */; };
+		CF7BA4662BF79DC900102D09 /* FamilyProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7BA4652BF79DC900102D09 /* FamilyProgressBar.swift */; };
+		CF7BA4EC2BFB99FF00102D09 /* NavigationsPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7BA4EB2BFB99FF00102D09 /* NavigationsPages.swift */; };
+		CF7BA4EE2BFBA28A00102D09 /* ParentCodePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7BA4ED2BFBA28A00102D09 /* ParentCodePage.swift */; };
+		CF7BA4F02BFCCBAE00102D09 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7BA4EF2BFCCBAE00102D09 /* SwiftUIView.swift */; };
+		CF7BA4F22BFCDDE100102D09 /* ProgressBarCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7BA4F12BFCDDE100102D09 /* ProgressBarCount.swift */; };
+		CF7BAF722BF2674900843AE4 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7BAF712BF2674900843AE4 /* ProgressBar.swift */; };
+		CF9B43232BEA4E0000F778FF /* ChildSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9B43222BEA4E0000F778FF /* ChildSelectView.swift */; };
+		CF9B43272BEA5A2600F778FF /* ChildAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9B43262BEA5A2600F778FF /* ChildAlertView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF01BD022BFF8B4C0075D437 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF01BD042C00CE840075D437 /* HubPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubPage.swift; sourceTree = "<group>"; };
+		CF01BD062C05FF980075D437 /* GoodDeedGalaxyLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodDeedGalaxyLogo.swift; sourceTree = "<group>"; };
+		CF1461882C08A0C300E890C3 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		CF14618A2C08B9F400E890C3 /* ChoresView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoresView.swift; sourceTree = "<group>"; };
+		CF14618C2C08BA0A00E890C3 /* NewItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
+		CF14618E2C08BA4B00E890C3 /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
+		CF1461902C08BA6200E890C3 /* ToDoListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListViewModel.swift; sourceTree = "<group>"; };
+		CF1461922C08BA7E00E890C3 /* TodoDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoDetailView.swift; sourceTree = "<group>"; };
+		CF1461942C08BA9D00E890C3 /* ToDoListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		CF1461962C08BAD000E890C3 /* ChoresTodosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoresTodosView.swift; sourceTree = "<group>"; };
+		CF1461982C08C73800E890C3 /* NavigationViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewButton.swift; sourceTree = "<group>"; };
+		CF14619A2C09F98400E890C3 /* CustomTabBar */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CustomTabBar; sourceTree = "<group>"; };
+		CF4EFB622BCD5F0300E1B2B2 /* GoodDeedGalaxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodDeedGalaxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4EFB652BCD5F0300E1B2B2 /* GoodDeedGalaxyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodDeedGalaxyApp.swift; sourceTree = "<group>"; };
+		CF4EFB692BCD5F0400E1B2B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF4EFB6C2BCD5F0400E1B2B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF4EFB792BCD7E2600E1B2B2 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		CF7BA4612BF6532000102D09 /* ChoreCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoreCount.swift; sourceTree = "<group>"; };
+		CF7BA4652BF79DC900102D09 /* FamilyProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyProgressBar.swift; sourceTree = "<group>"; };
+		CF7BA4EB2BFB99FF00102D09 /* NavigationsPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationsPages.swift; sourceTree = "<group>"; };
+		CF7BA4ED2BFBA28A00102D09 /* ParentCodePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentCodePage.swift; sourceTree = "<group>"; };
+		CF7BA4EF2BFCCBAE00102D09 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		CF7BA4F12BFCDDE100102D09 /* ProgressBarCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarCount.swift; sourceTree = "<group>"; };
+		CF7BAF712BF2674900843AE4 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		CF9B43222BEA4E0000F778FF /* ChildSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildSelectView.swift; sourceTree = "<group>"; };
+		CF9B43262BEA5A2600F778FF /* ChildAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildAlertView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF4EFB5F2BCD5F0300E1B2B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF4EFB592BCD5F0300E1B2B2 = {
+			isa = PBXGroup;
+			children = (
+				CF4EFB642BCD5F0300E1B2B2 /* GoodDeedGalaxy */,
+				CF4EFB632BCD5F0300E1B2B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF4EFB632BCD5F0300E1B2B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF4EFB622BCD5F0300E1B2B2 /* GoodDeedGalaxy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF4EFB642BCD5F0300E1B2B2 /* GoodDeedGalaxy */ = {
+			isa = PBXGroup;
+			children = (
+				CF4EFB652BCD5F0300E1B2B2 /* GoodDeedGalaxyApp.swift */,
+				CF01BD062C05FF980075D437 /* GoodDeedGalaxyLogo.swift */,
+				CF4EFB792BCD7E2600E1B2B2 /* LogInView.swift */,
+				CF1461982C08C73800E890C3 /* NavigationViewButton.swift */,
+				CF01BD022BFF8B4C0075D437 /* ContentView.swift */,
+				CF7BA4ED2BFBA28A00102D09 /* ParentCodePage.swift */,
+				CF14618A2C08B9F400E890C3 /* ChoresView.swift */,
+				CF14618E2C08BA4B00E890C3 /* NewItemViewViewModel.swift */,
+				CF1461902C08BA6200E890C3 /* ToDoListViewModel.swift */,
+				CF1461962C08BAD000E890C3 /* ChoresTodosView.swift */,
+				CF1461922C08BA7E00E890C3 /* TodoDetailView.swift */,
+				CF14618C2C08BA0A00E890C3 /* NewItemView.swift */,
+				CF1461942C08BA9D00E890C3 /* ToDoListView.swift */,
+				CF7BA4EB2BFB99FF00102D09 /* NavigationsPages.swift */,
+				CF9B43222BEA4E0000F778FF /* ChildSelectView.swift */,
+				CF1461882C08A0C300E890C3 /* BackButton.swift */,
+				CF9B43262BEA5A2600F778FF /* ChildAlertView.swift */,
+				CF7BAF712BF2674900843AE4 /* ProgressBar.swift */,
+				CF7BA4F12BFCDDE100102D09 /* ProgressBarCount.swift */,
+				CF14619A2C09F98400E890C3 /* CustomTabBar */,
+				CF01BD042C00CE840075D437 /* HubPage.swift */,
+				CF7BA4652BF79DC900102D09 /* FamilyProgressBar.swift */,
+				CF7BA4612BF6532000102D09 /* ChoreCount.swift */,
+				CF4EFB692BCD5F0400E1B2B2 /* Assets.xcassets */,
+				CF7BA4EF2BFCCBAE00102D09 /* SwiftUIView.swift */,
+				CF4EFB6B2BCD5F0400E1B2B2 /* Preview Content */,
+			);
+			path = GoodDeedGalaxy;
+			sourceTree = "<group>";
+		};
+		CF4EFB6B2BCD5F0400E1B2B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF4EFB6C2BCD5F0400E1B2B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF4EFB612BCD5F0300E1B2B2 /* GoodDeedGalaxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4EFB702BCD5F0400E1B2B2 /* Build configuration list for PBXNativeTarget "GoodDeedGalaxy" */;
+			buildPhases = (
+				CF4EFB5E2BCD5F0300E1B2B2 /* Sources */,
+				CF4EFB5F2BCD5F0300E1B2B2 /* Frameworks */,
+				CF4EFB602BCD5F0300E1B2B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodDeedGalaxy;
+			productName = GoodDeedGalaxy;
+			productReference = CF4EFB622BCD5F0300E1B2B2 /* GoodDeedGalaxy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF4EFB5A2BCD5F0300E1B2B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CF4EFB612BCD5F0300E1B2B2 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = CF4EFB5D2BCD5F0300E1B2B2 /* Build configuration list for PBXProject "GoodDeedGalaxy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF4EFB592BCD5F0300E1B2B2;
+			productRefGroup = CF4EFB632BCD5F0300E1B2B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF4EFB612BCD5F0300E1B2B2 /* GoodDeedGalaxy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF4EFB602BCD5F0300E1B2B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4EFB6D2BCD5F0400E1B2B2 /* Preview Assets.xcassets in Resources */,
+				CF4EFB6A2BCD5F0400E1B2B2 /* Assets.xcassets in Resources */,
+				CF14619B2C09F98400E890C3 /* CustomTabBar in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF4EFB5E2BCD5F0300E1B2B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7BA4EE2BFBA28A00102D09 /* ParentCodePage.swift in Sources */,
+				CF1461912C08BA6200E890C3 /* ToDoListViewModel.swift in Sources */,
+				CF9B43232BEA4E0000F778FF /* ChildSelectView.swift in Sources */,
+				CF01BD032BFF8B4C0075D437 /* ContentView.swift in Sources */,
+				CF14618F2C08BA4B00E890C3 /* NewItemViewViewModel.swift in Sources */,
+				CF4EFB7A2BCD7E2600E1B2B2 /* LogInView.swift in Sources */,
+				CF1461972C08BAD000E890C3 /* ChoresTodosView.swift in Sources */,
+				CF1461952C08BA9D00E890C3 /* ToDoListView.swift in Sources */,
+				CF7BA4622BF6532100102D09 /* ChoreCount.swift in Sources */,
+				CF7BA4F02BFCCBAE00102D09 /* SwiftUIView.swift in Sources */,
+				CF7BA4EC2BFB99FF00102D09 /* NavigationsPages.swift in Sources */,
+				CF9B43272BEA5A2600F778FF /* ChildAlertView.swift in Sources */,
+				CF4EFB662BCD5F0300E1B2B2 /* GoodDeedGalaxyApp.swift in Sources */,
+				CF7BA4F22BFCDDE100102D09 /* ProgressBarCount.swift in Sources */,
+				CF1461992C08C73800E890C3 /* NavigationViewButton.swift in Sources */,
+				CF14618B2C08B9F400E890C3 /* ChoresView.swift in Sources */,
+				CF7BAF722BF2674900843AE4 /* ProgressBar.swift in Sources */,
+				CF01BD072C05FF980075D437 /* GoodDeedGalaxyLogo.swift in Sources */,
+				CF1461932C08BA7E00E890C3 /* TodoDetailView.swift in Sources */,
+				CF7BA4662BF79DC900102D09 /* FamilyProgressBar.swift in Sources */,
+				CF01BD052C00CE850075D437 /* HubPage.swift in Sources */,
+				CF1461892C08A0C300E890C3 /* BackButton.swift in Sources */,
+				CF14618D2C08BA0A00E890C3 /* NewItemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF4EFB6E2BCD5F0400E1B2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF4EFB6F2BCD5F0400E1B2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF4EFB712BCD5F0400E1B2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"GoodDeedGalaxy/Preview Content\"";
+				DEVELOPMENT_TEAM = G63KG7V648;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = UnlockParentPage;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Linda-A.-Lewis.GoodDeedGalaxy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF4EFB722BCD5F0400E1B2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"GoodDeedGalaxy/Preview Content\"";
+				DEVELOPMENT_TEAM = G63KG7V648;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = UnlockParentPage;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Linda-A.-Lewis.GoodDeedGalaxy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF4EFB5D2BCD5F0300E1B2B2 /* Build configuration list for PBXProject "GoodDeedGalaxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4EFB6E2BCD5F0400E1B2B2 /* Debug */,
+				CF4EFB6F2BCD5F0400E1B2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF4EFB702BCD5F0400E1B2B2 /* Build configuration list for PBXNativeTarget "GoodDeedGalaxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4EFB712BCD5F0400E1B2B2 /* Debug */,
+				CF4EFB722BCD5F0400E1B2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF4EFB5A2BCD5F0300E1B2B2 /* Project object */;
+}
